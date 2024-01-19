@@ -1,0 +1,6 @@
+#navitems{
+    font-size: x-large;
+}
+#navitems li:hover{
+    color: rgb(25, 198, 255);
+}

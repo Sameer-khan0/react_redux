@@ -1,0 +1,27 @@
+/* about.css */
+
+/* Larger than mobile */
+@media (min-width: 576px) {
+    .rounded-circle {
+      width: 150px; /* Adjust the size for larger screens */
+    }
+  
+    .buttons {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+  }
+  
+  /* Mobile */
+  @media (max-width: 575.98px) {
+    .rounded-circle {
+      width: 100px; /* Adjust the size for smaller screens */
+    }
+  
+    .buttons {
+      flex-direction: column;
+      margin-top: 10px;
+    }
+  }
+  
